@@ -1,0 +1,40 @@
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  position: sticky;
+  height: 10vh;
+  color: white;
+  transition: all 0.5;
+  transition-timing-function: ease-in;
+  z-index: 1;
+}
+
+.header_left .nav_list, .header_right .icon_list {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between each item */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header_left .nav_list li a, .header_right .icon_list li {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.header_left .nav_list li a:hover {
+  text-decoration: underline;
+}
+
+.header_right .icon_list li {
+  cursor: pointer;
+  font-size: 20px; /* Adjust icon size */
+}
+
+
