@@ -40,10 +40,10 @@
   flex-wrap: wrap; /* Ensures items stack on smaller screens */
 }
 
-.footer_data div {
+/* .footer_data div {
   flex: 1;
   margin: 0 10px;
-}
+} */
 
 .footer_data ul {
   list-style: none;
@@ -67,19 +67,21 @@
 }
 
 .service_code {
-  margin: 20px 0;
+  margin: 5px 0;
   padding: 10px 20px;
   border: 2px solid white; /* White border around the service code */
   border-radius: 5px; /* Optional: for rounded corners */
-  font-size: 14px;
+  font-size: 12px;
   color: white;
   text-align: center;
+  justify-content: flex-start;
 }
 
 
 .copy_write {
   font-size: 12px;
   color: #b3b3b3;
+  justify-content: flex-start;
 }
 
 @media (max-width: 768px) {
