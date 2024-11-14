@@ -13,4 +13,5 @@ const requests = {
     fetchTvShow: `/tv/popular?api_key=${API_KEY}&language=en-US&page=1`
 }
 
+console.log('API Key:', API_KEY);
 export default requests;
