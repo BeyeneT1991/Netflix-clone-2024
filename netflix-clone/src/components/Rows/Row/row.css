@@ -1,5 +1,5 @@
 .row_poster {
-    width: 100%;
+    width: 15%;
     object-fit: contain;
     min-height: 100px;
     transition: transform 450ms;
